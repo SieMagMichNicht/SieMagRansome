@@ -683,7 +683,7 @@ function updateVisualPulse() {
   const pulse = (bass / 255);
 
   //Puls
-  const skullScale = 1 + (pulse * 0.25); 
+  const skullScale = 1 + (pulse * 0.15); 
   const skull = document.querySelector('#ascii-bg pre');
   if (skull) {
     skull.style.transform = `scale(${skullScale})`;
